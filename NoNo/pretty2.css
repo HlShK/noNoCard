@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Titillium+Web:wght@700&display=swap');
+
+body {
+    background-color: whitesmoke;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.return {
+    position: fixed;
+    left: 1%;
+    top: 2%;
+    font-size: 3vmin;
+}
+
+.arrow {
+    text-decoration: none;
+    color: #ff7a01;
+}
+
+p {
+    color: #063064;
+}
+
+header {
+    color: #063064;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10%;
+    align-items: center;  
+    margin-bottom: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Titillium Web', sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.maina {
+    display: flex;
+    flex-direction: column;
+}
+
+.pmain {
+    text-align: center;
+    color: #063064;
+}
+
+.maincard {
+    width: 100%;
+    height: 50%;
+}
+
+.soust {
+    font-size: 2vmin;
+}
+
+.logoleft {
+    display: flex;
+    align-items: center;
+}
+
+.but {
+   font-size: 2vmin;
+}
+
+.b1:hover, .b2:hover, .b3:hover, .b4:hover {
+    border-bottom: 1px solid #1c62b9;
+    padding-bottom: 3px;
+    color: #1c62b9;
+}
+
+.logo {
+    width: 100px;
+}
+
+.button {
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+article {
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+article > p {
+    width: 60%;
+    font-size: 2.5vmin;
+    padding-inline: 30px;
+}
+
+.p2 {
+    text-align: right;
+}
+
+.card, .card2 {
+    width: 50%;
+}
+
+footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2vmin;
+    margin-right: 10%;
+
+}
+
+.logob {
+    width: 20%;
+    margin-left: 10%;
+}
+
+.lo {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    padding-right: 15px;
+}
+
+.cardb {
+    width: 40%;
+}
+
+.verticalLine {
+    height: 20vmin;
+    width: 2px;
+    border-left: thick solid lightgray;
+  }
+
+.verticalLine2 {
+    margin-right: 5%;
+    height: 20vmin;
+    width: 2px;
+    border-left: thick solid lightgray;
+}
+
+header, article, footer {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.39);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.39);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.39);
+}
+
+
